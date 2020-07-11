@@ -18,3 +18,109 @@ strong, b {
 h1 {
     font-size: 2.6em;
 }
+
+.image.avatar48 {
+    background: none;
+}
+
+.image.avatar48 img {
+    border-radius: 50% !important;
+}
+
+.image {
+    &.avatar200 {
+        width: 200px;
+        height: 200px;
+        background: none;
+        
+        &.left {
+            float: left;
+            margin: 0 1em 0 0;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }    
+}
+
+.skills {
+    margin: 0;
+    list-style-type: none;
+}
+
+.bars {
+    padding: 0;
+    text-align: left;
+
+    li {
+        position: relative;
+        margin-bottom: 18px;
+        background: #ccc;
+        height: 42px;
+        border-radius: 3px;
+        line-height: 12px;
+    }
+
+    em {
+        position: relative;
+        top: 15px;
+        color: white;
+        margin-left: 12px;
+        font-size: medium;
+        font-style: normal;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .bar-expand {   
+        position: absolute;
+        margin: 0;
+        padding-right: 24px;
+        background: #313131;
+        display: inline-block;
+        height: 42px;
+        width: 90%;
+        line-height: 42px;
+        border-radius: 3px 0 0 3px;
+    
+        &.imageprocessing {
+            width: 85%;
+        }
+        &.cpp {
+            width: 85%;
+        }
+
+        &.python {
+            width: 82%;
+        }
+
+        &.deeplearning {
+            width: 83%;
+        }
+
+        &.opensource{
+            width: 75%;
+        }
+
+        &.hpc{
+            width: 85%;
+        }
+
+        &.dataanalysis{
+            width: 78%;
+        }
+
+        &.osadmin
+        {
+            width: 72%;
+        }
+
+        &.webdevel{
+            width: 70%;
+        }
+    }
+}
+
