@@ -46,8 +46,49 @@ h1 {
     }    
 }
 
+.experience {
+    margin-top: 0 !important;
+    text-align: left;
+
+    .row {
+        margin-top: 0   
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .job {
+        font-weight: bold;
+    }
+
+    .date {
+        text-align: end;
+        font-style: italic;
+        font-size: 0.8em;
+        @include breakpoint(mobile) {
+            text-align: left;
+        }
+    }
+
+    .job-description {
+        text-align: justify;
+        line-height: 1.2em;
+        &.row {
+            margin-bottom: 1em;
+        } 
+        p {
+            font-size: 0.8em;
+        }
+    }
+}
+
+
 .skills {
-    margin: 0;
     list-style-type: none;
 }
 
