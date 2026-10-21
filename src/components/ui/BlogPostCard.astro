@@ -17,10 +17,14 @@ const { post } = Astro.props
 					{post.data.title}
 				</a>
 			</h2>
-			{post.data.tags?.[0] && (
-				<a href={getTagUrl(post.data.tags[0])} rel='tag' class='badge badge-accent badge-outline p-4 hover:underline'>
-					{post.data.tags[0]}
-				</a>
+			{post.data.tags && post.data.tags.length > 0 && (
+				<div class='flex flex-wrap justify-end gap-2'>
+					{post.data.tags.map(tag => (
+						<a href={getTagUrl(tag)} rel='tag' class='badge badge-accent badge-outline p-4 hover:underline'>
+							{tag}
+						</a>
+					))}
+				</div>
 			)}
 		</div>
 		<time datetime={post.data.date} class='text-sm text-base-content/71'>
