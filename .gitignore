@@ -7,6 +7,10 @@ dist/
 # dependencies
 node_modules/
 
+# devenv
+.devenv/
+.envrc.local
+
 # logs
 npm-debug.log*
 yarn-debug.log*
