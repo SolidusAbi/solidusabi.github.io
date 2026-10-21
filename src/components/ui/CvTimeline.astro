@@ -1,5 +1,5 @@
 ---
-import { isExperience } from '@/types/cv';
+import { isExperience, isEducation } from '@/types/cv';
 import type { Experience, Education } from '@/types/cv';
 
 interface Props {
@@ -38,6 +38,15 @@ const { elements, colored } = Astro.props
 					<div>{element.description}</div>
 					<div>{isExperience(element) ? element.company : element.school}</div>
 					<div>{element.location}</div>
+
+					<div>
+						{isEducation(element) && element.link &&
+							<a
+								href={element.link}
+								class='btn btn-sm btn-secondary text-secondary-content'
+							> Read </a>
+						}
+					</div>
 				</div>
         <hr class:list={[{ 'bg-accent': colored }]} />
 			</li>

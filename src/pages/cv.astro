@@ -4,7 +4,7 @@ import { experiences, education, skills, publications } from '../data/cv'
 import CvTimeline from '@/components/ui/CvTimeline.astro'
 
 import type { Experience, Education, Publication } from '../types/cv'
-import List from '@/components/ui/List.astro'
+import SkillBadge from '@/components/ui/SkillBadge.astro'
 import PublicationsList from '@/components/ui/PublicationsList.astro'
 
 let orderedExperiences: Experience[] = []
@@ -41,22 +41,11 @@ if (education.length > 0) {
 if (publications.length > 0) {
 	orderedPublications = publications.sort((a, b) => {
 		return orderElement(a, b)
-	})
+	}).slice(0,5)
 }
 ---
 
 <Layout>
-	{
-		orderedEducations.length > 0 && (
-			<section class='mb-12'>
-				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
-					Education
-				</h2>
-				<CvTimeline elements={orderedEducations} colored={true} />
-			</section>
-		)
-	}
-
 	{
 		orderedExperiences.length > 0 && (
 			<section class='mb-12'>
@@ -64,6 +53,17 @@ if (publications.length > 0) {
 					Experiences
 				</h2>
 				<CvTimeline elements={orderedExperiences} colored={true} />
+			</section>
+		)
+	}
+
+	{
+		orderedEducations.length > 0 && (
+			<section class='mb-12'>
+				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
+					Education
+				</h2>
+				<CvTimeline elements={orderedEducations} colored={true} />
 			</section>
 		)
 	}
@@ -82,7 +82,11 @@ if (publications.length > 0) {
 	{
 		skills.length > 0 && (
 			<section class='mb-12'>
-				<List listTitle='Skills' listItems={skills}/>
+				<SkillBadge
+					listTitle='Skills'
+					listItems={skills}
+					color='accent'
+				/>
 			</section>
 		)
 	}

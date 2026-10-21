@@ -7,9 +7,9 @@ interface Profile {
 }
 
 export const profile: Profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
+	fullName: 'Abian Hernandez',
+	title: 'Ph.D.',
+	institute: 'University of Las Palmas de Gran Canaria',
 	author_name: '', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
@@ -18,13 +18,13 @@ export const profile: Profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
+	email: 'abianhernandez@outlook.es',
+	linkedin: 'https://www.linkedin.com/in/ahguedes/',
+	x: '',
 	bluesky: '',
-	github: '',
+	github: 'https://github.com/SolidusAbi',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?hl=es&user=-ujkFqwAAAAJ',
 	inspire: '',
 	arxiv: '',
 	orcid: '',
