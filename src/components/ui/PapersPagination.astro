@@ -1,0 +1,40 @@
+---
+import { template } from '@/settings'
+
+interface Props {
+	page: {
+		url: { prev?: string; next?: string }
+		currentPage: number
+		lastPage: number
+	}
+}
+
+const { page } = Astro.props
+const pages = Array.from({ length: page.lastPage }, (_, i) => i + 1)
+---
+
+<div class="join flex justify-center mt-8">
+	<a
+		href={page.url.prev}
+		class:list={['join-item btn btn-sm', { 'btn-disabled': !page.url.prev }]}
+	>«</a>
+
+	{
+		pages.map((pageNumber) => (
+			<a
+				href={`${template.base}/papers/${pageNumber}`}
+				class:list={[
+					'join-item btn btn-sm',
+					{ 'btn-active': pageNumber === page.currentPage },
+				]}
+			>
+				{pageNumber}
+			</a>
+		))
+	}
+
+	<a
+		href={page.url.next}
+		class:list={['join-item btn btn-sm', { 'btn-disabled': !page.url.next }]}
+	>»</a>
+</div>
