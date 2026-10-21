@@ -1,0 +1,38 @@
+---
+interface Props {
+  listTitle: string;
+  listItems: {
+    title: string;
+    description: string;
+    badges?: string[]; // Array opcional de badges
+  }[];
+  color?: string;
+}
+
+const { listTitle, listItems, color = 'gray-500' } = Astro.props;
+const bgColorClass = `bg-${color}`;
+const textColorClass = `text-white`;
+---
+
+<h2 class="text-2xl font-bold mb-6">{listTitle}</h2>
+<div class="grid gap-6 mb-12">
+  {
+    listItems.map((item) => (
+      <div class="p-6 bg-base-200 rounded-xl text-base-content">
+        <h3 class="text-xl font-semibold mb-2">{item.title}</h3>
+        <p class="mb-4">{item.description}</p>
+        {item.badges && (
+          <div class="flex flex-wrap items-center justify-center gap-5">
+            {item.badges.map((badge) => (
+              <span
+                class={`inline-flex items-center rounded-xl ${bgColorClass} px-4 py-2 text-base font-medium ${textColorClass} hover:opacity-90 transition-opacity`}
+              >
+                {badge}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
+    ))
+  }
+</div>

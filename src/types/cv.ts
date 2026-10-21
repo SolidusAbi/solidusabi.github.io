@@ -12,11 +12,13 @@ export interface Education {
   degree: string;
   location?: string;
   description?: string;
+  link?: string;
 }
 
 export interface Skill {
   title: string;
   description: string;
+  badges?: string[];
 }
 
 export interface Publication {
