@@ -7,13 +7,20 @@ import tailwindcss from "@tailwindcss/vite";
 import { template } from "./src/settings";
 
 import sitemap from "@astrojs/sitemap";
+import { remarkAlert } from "remark-github-blockquote-alert";
 
 // https://astro.build/config
 export default defineConfig({
     integrations: [react(), sitemap()],
+    markdown: {
+        remarkPlugins: [[remarkAlert, { legacyTitle: true }]],
+    },
     vite: {
         plugins: [tailwindcss()],
     },
     site: template.website_url,
     base: template.base,
+    redirects: {
+        [`${template.base}/papers`]: `${template.base}/papers/1`,
+    },
 });
