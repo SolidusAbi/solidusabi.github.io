@@ -10,9 +10,26 @@ export const profile: Profile = {
 	fullName: 'Abian Hernandez',
 	title: 'Ph.D.',
 	institute: 'University of Las Palmas de Gran Canaria',
-	author_name: '', // Author name to be highlighted in the papers section
+	author_name: 'Abian Hernandez-Guedes', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{
+			title: 'Interpretable Deep Learning',
+			description:
+				'Information-theoretic methods to understand, evaluate and validate deep learning models in critical domains such as medicine.',
+			field: 'computer-science',
+		},
+		{
+			title: 'Medical Image Analysis',
+			description:
+				'Segmentation, registration and classification of multimodal medical images, including hyperspectral imaging.',
+			field: 'engineering',
+		},
+		{
+			title: 'Diabetic Foot Thermography',
+			description:
+				'Early detection of diabetic foot ulcers through infrared thermography and multimodal image processing.',
+			field: 'engineering',
+		},
 	],
 }
 

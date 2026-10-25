@@ -104,7 +104,7 @@ export const skills = [
 export const publications = [
 	{
 		title: 'AI-Driven Gesture and Action Recognition for Learning Medicine Through Virtual Reality',
-		authors: 'Daniel Arias-Ruiz-Esquide, Jose Juan Reyes-Cabrera, <b>Abian Hernandez-Guedes</b>, Agustín Trujillo-Pino, Miguel Angel Rodriguez-Florido',
+		authors: 'Daniel Arias-Ruiz-Esquide, Jose Juan Reyes-Cabrera, Abian Hernandez-Guedes, Agustín Trujillo-Pino, Miguel Angel Rodriguez-Florido',
 		journal: 'International Conference on Computer Aided Systems Theory 2024',
 		time: '2025',
 		link: 'https://link.springer.com/chapter/10.1007/978-3-031-82957-4_8',
@@ -112,7 +112,7 @@ export const publications = [
 	},
 	{
 		title: 'Development of a visible to 1600 nm hyperspectral imaging rigid-scope system using supercontinuum light and an acousto-optic tunable filter',
-		authors: 'Toshihiro Takamatsu, Ryodai Fukushima, Kounosuke Sato, Masakazu Umezawa, Hideo Yokota, Kohei Soga, <b>Abian Hernandez-Guedes</b>, Gustavo M Callico, Hiroshi Takemura',
+		authors: 'Toshihiro Takamatsu, Ryodai Fukushima, Kounosuke Sato, Masakazu Umezawa, Hideo Yokota, Kohei Soga, Abian Hernandez-Guedes, Gustavo M Callico, Hiroshi Takemura',
 		journal: 'Optics Express',
 		time: '2024',
 		link: 'https://opg.optica.org/oe/fulltext.cfm?=oe-32-9-16090&id=549061',
@@ -120,7 +120,7 @@ export const publications = [
 	},
 	{
 		title: 'Contrastive Learning approach for blind Hyperspectral Unmixing (CLHU)',
-		authors: '<b>Abian Hernandez-Guedes</b>, Ryodai Fukushima, Toshihiro Takamatsu, Himar Fabelo, Juan Ruiz-Alzola, Hiroshi Takemura, Gustavo M Callico',
+		authors: 'Abian Hernandez-Guedes, Ryodai Fukushima, Toshihiro Takamatsu, Himar Fabelo, Juan Ruiz-Alzola, Hiroshi Takemura, Gustavo M Callico',
 		journal: 'Preprint',
 		time: '2023',
 		link: 'https://d197for5662m48.cloudfront.net/documents/publicationstatus/180314/preprint_pdf/5b7d0333a0e713453a1d339fc901d8c4.pdf',
@@ -128,7 +128,7 @@ export const publications = [
 	},
 	{
 		title: 'Detection of Exposed Nerves in Two Individuals In Vivo and Unexposed Nerves Ex Vivo with Near-Infrared Hyperspectral Laparoscope',
-		authors: 'Ryodai Fukushima, Toshihiro Takamatsu, Kounosuke Sato, <b>Abian Hernandez-Guedes</b>, Gustavo M Callico, Kyouhei Okubo, Masakazu Umezawa, Hideo Yokota, Kouhei Soga, Hiroshi Takemura',
+		authors: 'Ryodai Fukushima, Toshihiro Takamatsu, Kounosuke Sato, Abian Hernandez-Guedes, Gustavo M Callico, Kyouhei Okubo, Masakazu Umezawa, Hideo Yokota, Kouhei Soga, Hiroshi Takemura',
 		journal: '2024 IEEE/SICE International Symposium on System Integration (SII)',
 		time: '2024',
 		link: 'https://ieeexplore.ieee.org/abstract/document/10417671',
@@ -136,7 +136,7 @@ export const publications = [
 	},
 	{
 		title: 'State-of-the-art features for early-stage detection of diabetic foot ulcers based on thermograms',
-		authors: 'Natalia Arteaga-Marrero, <b>Abian Hernandez-Guedes</b>, Jordan Ortega-Rodríguez, Juan Ruiz-Alzola',
+		authors: 'Natalia Arteaga-Marrero, Abian Hernandez-Guedes, Jordan Ortega-Rodríguez, Juan Ruiz-Alzola',
 		journal: 'Biomedicines',
 		time: '2023',
 		link: 'https://www.mdpi.com/2227-9059/11/12/3209',
@@ -144,7 +144,7 @@ export const publications = [
 	},
 	{
 		title: 'Feature ranking by variational dropout for classification using thermograms from diabetic foot ulcers',
-		authors: '<b>Abian Hernandez-Guedes</b>, Natalia Arteaga-Marrero, Enrique Villa, Gustavo M Callico, Juan Ruiz-Alzola',
+		authors: 'Abian Hernandez-Guedes, Natalia Arteaga-Marrero, Enrique Villa, Gustavo M Callico, Juan Ruiz-Alzola',
 		journal: 'Sensors',
 		time: '2023',
 		link: 'https://www.mdpi.com/1424-8220/23/2/757',
@@ -152,7 +152,7 @@ export const publications = [
 	},
 	{
 		title: 'Performance evaluation of deep learning models for image classification over small datasets: Diabetic foot case study',
-		authors: '<b>Abian Hernandez-Guedes</b>, Idafen Santana-Perez, Natalia Arteaga-Marrero, Himar Fabelo, Gustavo M Callico, Juan Ruiz-Alzola',
+		authors: 'Abian Hernandez-Guedes, Idafen Santana-Perez, Natalia Arteaga-Marrero, Himar Fabelo, Gustavo M Callico, Juan Ruiz-Alzola',
 		journal: 'IEEE Access',
 		time: '2022',
 		link: 'https://ieeexplore.ieee.org/abstract/document/9964207',
@@ -160,7 +160,7 @@ export const publications = [
 	},
 	{
 		title: 'Towards skin cancer self-monitoring through an optimized MobileNet with coordinate attention',
-		authors: 'María Castro-Fernández, <b>Abián Hernandez-Guedes</b>, Himar Fabelo, Francisco J Balea-Fernández, Samuel Ortega, Gustavo M Callicó',
+		authors: 'María Castro-Fernández, Abian Hernandez-Guedes, Himar Fabelo, Francisco J Balea-Fernández, Samuel Ortega, Gustavo M Callicó',
 		journal: '2022 25th Euromicro Conference on Digital System Design (DSD)',
 		time: '2022',
 		link: 'https://ieeexplore.ieee.org/abstract/document/9996849',
@@ -168,7 +168,7 @@ export const publications = [
 	},
 	{
 		title: 'Morphological foot model for temperature pattern analysis proposed for diabetic foot disorders',
-		authors: 'Natalia Arteaga-Marrero, Lucas Christian Bodson, <b>Abián Hernandez-Guedes</b>, Enrique Villa, Juan Ruiz-Alzola',
+		authors: 'Natalia Arteaga-Marrero, Lucas Christian Bodson, Abian Hernandez-Guedes, Enrique Villa, Juan Ruiz-Alzola',
 		journal: 'Applied Sciences',
 		time: '2021',
 		link: 'https://www.mdpi.com/2076-3417/11/16/7396',
@@ -176,7 +176,7 @@ export const publications = [
 	},
 	{
 		title: 'Segmentation approaches for diabetic foot disorders',
-		authors: 'Natalia Arteaga-Marrero, <b>Abian Hernandez-Guedes</b>, Enrique Villa, Sara Gonzalez-Perez, Carlos Luque, Juan Ruiz-Alzola',
+		authors: 'Natalia Arteaga-Marrero, Abian Hernandez-Guedes, Enrique Villa, Sara Gonzalez-Perez, Carlos Luque, Juan Ruiz-Alzola',
 		journal: 'Sensors',
 		time: '2021',
 		link: 'https://www.mdpi.com/1424-8220/21/3/934',
@@ -184,7 +184,7 @@ export const publications = [
 	},
 	{
 		title: 'SWIR Hyperspectral Imaging to Assess Neurocognitive Disorders Using Blood Plasma Samples',
-		authors: 'Sonia Raquel León Martín, <b>Abian Hernandez-Guedes</b>, Himar Antonio Fabelo Gómez, Samuel Ortega Sarmiento, Francisco Javier Balea Fernandez, Gustavo Iván Marrero Callicó',
+		authors: 'Sonia Raquel León Martín, Abian Hernandez-Guedes, Himar Antonio Fabelo Gómez, Samuel Ortega Sarmiento, Francisco Javier Balea Fernandez, Gustavo Iván Marrero Callicó',
 		journal: 'The international society for optics and photonics (SPIE)',
 		time: '2021',
 		link: 'https://www.spiedigitallibrary.org/eBooks/PM/Short-Wavelength-Infrared-Windows-for-Biomedical-Applications/Chapter13/SWIR-Hyperspectral-Imaging-to-Assess-Neurocognitive-Disorders-Using-Blood-Plasma/10.1117/3.2604326.ch13',
@@ -192,7 +192,7 @@ export const publications = [
 	},
 	{
 		title: 'High-level synthesis of multiclass SVM using code refactoring to classify brain cancer from hyperspectral images',
-		authors: 'Abelardo Baez, Himar Fabelo, Samuel Ortega, Giordana Florimbi, Emanuele Torti, <b>Abian Hernandez-Guedes</b>, Francesco Leporati, Giovanni Danese, Gustavo M. Callico, Roberto Sarmiento',
+		authors: 'Abelardo Baez, Himar Fabelo, Samuel Ortega, Giordana Florimbi, Emanuele Torti, Abian Hernandez-Guedes, Francesco Leporati, Giovanni Danese, Gustavo M. Callico, Roberto Sarmiento',
 		journal: 'Electronics',
 		time: '2019',
 		link: 'https://www.mdpi.com/2079-9292/8/12/1494',
@@ -200,7 +200,7 @@ export const publications = [
 	},
 	{
 		title: 'Automatic segmentation based on deep learning techniques for diabetic foot monitoring through multimodal images',
-		authors: '<b>Abián Hernandez-Guedes</b>, Natalia Arteaga-Marrero, Enrique Villa, Himar Fabelo, Gustavo M Callicó, Juan Ruiz-Alzola',
+		authors: 'Abian Hernandez-Guedes, Natalia Arteaga-Marrero, Enrique Villa, Himar Fabelo, Gustavo M Callicó, Juan Ruiz-Alzola',
 		journal: 'International conference on image analysis and processing (ICIAP)',
 		time: '2019',
 		link: 'https://link.springer.com/chapter/10.1007/978-3-030-30645-8_38',
@@ -208,19 +208,10 @@ export const publications = [
 	},
 	{
 		title: 'Random forest training stage acceleration using graphics processing units',
-		authors: '<b>Abian Hernandez-Guedes</b>, Himar Fabelo, Samuel Ortega, Abelardo Báez, Gustavo M Callicó, Roberto Sarmiento',
+		authors: 'Abian Hernandez-Guedes, Himar Fabelo, Samuel Ortega, Abelardo Báez, Gustavo M Callicó, Roberto Sarmiento',
 		journal: '2017 32nd Conference on Design of Circuits and Integrated Systems (DCIS)',
 		time: '2017',
 		link: 'https://ieeexplore.ieee.org/abstract/document/8311636',
 		abstract: 'Temperature data acquired by infrared sensors provide relevant information to assess different medical pathologies in early stages, when the symptoms of the diseases are not visible yet to the naked eye. Currently, a clinical system that exploits the use of multimodal images (visible, depth and thermal infrared) is being developed for diabetic foot monitoring. The workflow required to analyze these images starts with their acquisition and the automatic feet segmentation. A novel approach is presented for automatic feet segmentation using Deep Learning employing an architecture composed of an encoder and decoder (U-Net architecture) and applying a segmentation of planes in point cloud data, using the depth information of pixels labeled in the neural network prediction. The proposed automatic segmentation is a robust method for this case study, providing results in a short time and achieving better performance than other traditional segmentation methods as well as a basic U-Net segmentation system.',
 	},
-	
-	// {
-	// 	title: 'The Radiation of Uranium Compounds',
-	// 	authors: 'Marie Curie',
-	// 	journal: 'Comptes Rendus de l’Académie des Sciences',
-	// 	time: '1898',
-	// 	link: '#',
-	// 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
-	// },
 ];
