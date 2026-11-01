@@ -15,19 +15,19 @@ export const profile: Profile = {
 		{
 			title: 'Interpretable Deep Learning',
 			description:
-				'Information-theoretic methods to understand, evaluate and validate deep learning models in critical domains such as medicine.',
+				'Information-theoretic methods to understand, evaluate and validate deep learning models in critical domains.',
+			field: 'computer-science',
+		},
+		{
+			title: 'World Models',
+			description:
+				'World models for agentic systems, enabling learning, planning and decision-making in both physical and virtual environments.',
 			field: 'computer-science',
 		},
 		{
 			title: 'Medical Image Analysis',
 			description:
 				'Segmentation, registration and classification of multimodal medical images, including hyperspectral imaging.',
-			field: 'engineering',
-		},
-		{
-			title: 'Diabetic Foot Thermography',
-			description:
-				'Early detection of diabetic foot ulcers through infrared thermography and multimodal image processing.',
 			field: 'engineering',
 		},
 	],
@@ -44,7 +44,7 @@ export const social = {
 	scholar: 'https://scholar.google.com/citations?hl=es&user=-ujkFqwAAAAJ',
 	inspire: '',
 	arxiv: '',
-	orcid: '',
+	orcid: 'https://orcid.org/0000-0002-2508-2845',
 }
 
 export const template = {

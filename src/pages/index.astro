@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro'
 
 import { profile } from '@/settings'
 import { publications } from '@/data/cv'
+import { bio } from '@/data/bio'
 import ProfilePictures from '@/assets/profile_pictures.jpg'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
@@ -22,7 +23,18 @@ const { fullName, title, institute, research_areas } = profile
 			title={title}
 			institute={institute}
 			profilePicture={ProfilePictures}
+			description={bio.short}
 		/>
+	</section>
+
+	<!-- Biography -->
+	<section class='py-12 border-b'>
+		<h2 class='text-3xl font-bold mb-8'>About me</h2>
+		<div class='space-y-4 text-lg leading-relaxed text-base-content/80'>
+			{bio.paragraphs.map((paragraph) => (
+				<p>{paragraph}</p>
+			))}
+		</div>
 	</section>
 
 	<!-- Research Areas -->
@@ -32,6 +44,6 @@ const { fullName, title, institute, research_areas } = profile
 
 	<!-- Recent Publications -->
 	<section class='py-12 border-t'>
-		<ArticleList listTitle='Recent Publications' listItems={publications} />
+		<ArticleList listTitle='Recent Publications' listItems={publications.slice(0, 5)} />
 	</section>
 </Layout>
