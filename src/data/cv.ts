@@ -1,24 +1,24 @@
 export const experiences = [
 	{
 		company: 'AIMEN',
-		time: '2025-Currently',
-		title: 'AI Research',
-		location: 'Pontevedra, Galicia',
-		description: '...',
+		time: '2025-Present',
+		title: 'Senior Researcher, Artificial Intelligence and Data Analytics Lab',
+		location: 'Pontevedra, Galicia, Spain',
+		description: 'Conducting machine learning research in signal processing and decision-support systems for industry.',
 	},
 	{
-		company: 'Freelancer',
+		company: 'Freelance',
 		time: '2024-2026',
 		title: 'Software Engineer and Data Analyst',
 		location: 'Remote',
-		description: 'Developed .NET applications and AI educational tools. Delivered data solutions to support strategic decisions for clients.',
+		description: 'Developed .NET applications and AI-based educational tools. Delivered data solutions to help clients make strategic decisions.',
 	},
 	{
 		company: 'University of Las Palmas de Gran Canaria',
 		time: '2020-2024',
-		title: 'Research staff',
+		title: 'Researcher',
 		location: 'Gran Canaria, Spain',
-		description: 'Conducted ML research for medical imaging with focus on interpretability, uncertainty, and diagnostic signal analysis.',
+		description: 'Conducted machine learning research in medical imaging, focusing on interpretability, uncertainty, and diagnostic signal analysis.',
 	},
 	{
 		company: 'University of Las Palmas de Gran Canaria',
