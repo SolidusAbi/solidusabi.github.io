@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets'
 import type { ImageMetadata } from 'astro'
 
 import SocialIcons from './SocialIcons.astro'
@@ -13,7 +12,7 @@ interface Props {
   description?: string
 }
 
-const {fullName, title, institute, profilePicture, description} = Astro.props
+const {fullName, title, institute, description} = Astro.props
 ---
 <div class='flex-1'>
   <h1 class='text-4xl font-bold mb-4'>
